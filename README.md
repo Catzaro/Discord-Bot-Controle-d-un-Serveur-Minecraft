@@ -50,27 +50,29 @@ Colle-le dans le fichier .env à la racine de ton projet : DISCORD_TOKEN=ton_tok
 Va dans "OAuth2" > "URL Generator"
 
 Coche :
-
 ✅ bot
-
 ✅ applications.commands
 
 En bas, dans "Bot Permissions", coche :
-
 ✅ Send Messages
-
 ✅ Read Message History
-
 ✅ Add Reactions
-
 ✅ Manage Messages
 
 2. Inviter le bot
-Copie le lien généré tout en bas
+Copie le lien généré tout en bas dans Generated URL
 
 Ouvre ce lien dans ton navigateur et choisis ton serveur
 
 Clique sur "Autoriser"
+
+## 🔎 Obtenir l'ID du salon Discord
+Le bot a besoin de l'ID du salon où il enverra les contrôles.
+Dans Discord, va dans Paramètres utilisateur > Avancés
+Active "Mode développeur"
+Fais clic droit sur le salon souhaité → "Copier l’identifiant"
+Colle cet ID dans ton fichier .env : DISCORD_CHANNEL_ID=123456789012345678
+
 ---
 
 ## 🛠️ Installation
