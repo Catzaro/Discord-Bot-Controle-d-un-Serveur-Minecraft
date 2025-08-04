@@ -34,7 +34,7 @@ Ce bot Discord permet de démarrer, arrêter et redémarrer un **serveur Minecra
 Ouvre l'invite de commande et exécute :
 
 ```bash
-pip install discord.py mcrcon psutil
+pip install discord.py mcrcon psutil dotenv
 ```
 
 2. **Créer le fichier `.env`**
